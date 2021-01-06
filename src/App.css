@@ -1,0 +1,108 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.listOrder {
+  background-color: #dde1e2;
+  margin: 30px;
+  border-radius: 15px;
+  padding: 15px;
+}
+ul {
+  white-space: nowrap;
+  height: 1em;
+  width: 100%;
+}
+
+li {
+  display: inline;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.createOrder {
+  background-color: #dde1e2;
+  margin: 30px;
+  border-radius: 15px;
+}
+.createOrder .groupbox {
+  padding: 10px 0px 0px 21px;
+}
+.createOrder .label {
+  /* padding: 0px 20px; */
+  /* width: 130px; */
+  /* text-align: right; */
+}
+.error {
+  color: red;
+  font-size: 15px;
+}
+.createOrder input {
+  padding: 12px 20px;
+  width: 400px;
+  /* margin: 8px 0; */
+  box-sizing: border-box;
+}
+.createOrder textarea {
+  padding: 12px 20px;
+  width: 400px;
+  /* margin: 8px 0; */
+  box-sizing: border-box;
+}
+.createOrder .btn {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+.link {
+  margin: 0px 10px;
+  color: black;
+}
+.link:hover {
+  color: blue;
+}
+.activeLink {
+  margin: 0px 10px;
+  color: blue;
+  /* font-weight: bold; */
+}
